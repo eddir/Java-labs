@@ -1,4 +1,4 @@
-package me.rostkov.lab.task.extra_1;
+package me.rostkov.lab.task.extra.extra_1;
 
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;

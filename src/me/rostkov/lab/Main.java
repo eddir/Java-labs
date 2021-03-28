@@ -3,7 +3,7 @@ package me.rostkov.lab;
 import me.rostkov.lab.task.Task;
 import me.rostkov.lab.task.TaskManager;
 import me.rostkov.lab.task.chapter_1.unit_1.point.CoordinatePointTasks;
-import me.rostkov.lab.task.extra_1.ExtraInterfaceTask;
+import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 
 import java.util.Scanner;
 

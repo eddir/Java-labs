@@ -1,4 +1,4 @@
-package me.rostkov.lab.task.extra_1;
+package me.rostkov.lab.task.extra.extra_1;
 
 public interface Figure {
 
