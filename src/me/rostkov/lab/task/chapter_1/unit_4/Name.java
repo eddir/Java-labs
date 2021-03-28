@@ -21,6 +21,19 @@ public class Name {
         this.name = name;
     }
 
+    /**
+     * Генерирует отчество для данного имени.
+     * Используются правила русской именной системы.
+     * @return отчество
+     */
+    public static String toPatronymic(String name) {
+        String patronymic = "";
+
+        patronymic = name + "ович"; // TODO: найти готовую либу или изобрести велосипед
+
+        return patronymic;
+    }
+
     public String toString() {
         if (this.surname != null) {
             if (this.patronymic != null) {
@@ -29,5 +42,29 @@ public class Name {
             return this.name + " " + this.surname;
         }
         return this.name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public String getPatronymic() {
+        return patronymic;
+    }
+
+    public void setPatronymic(String patronymic) {
+        this.patronymic = patronymic;
     }
 }

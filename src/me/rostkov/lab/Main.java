@@ -10,6 +10,7 @@ import me.rostkov.lab.task.chapter_1.unit_5.TimeTask;
 import me.rostkov.lab.task.chapter_1.unit_6.HouseTask;
 import me.rostkov.lab.task.chapter_2.unit_1.StraightTask;
 import me.rostkov.lab.task.chapter_2.unit_2.NamedPersonTask;
+import me.rostkov.lab.task.chapter_2.unit_3.ParentPersonTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 
 import java.util.Scanner;
@@ -58,6 +59,7 @@ public class Main {
 
             try {
                 task.start();
+                in.nextLine();
             } catch (Exception e) {
                 System.out.println("ОШИБКА: " + e.getMessage());
             }
@@ -75,6 +77,7 @@ public class Main {
         Main.taskManager.addTask(new HouseTask());
         Main.taskManager.addTask(new StraightTask());
         Main.taskManager.addTask(new NamedPersonTask());
+        Main.taskManager.addTask(new ParentPersonTask());
 
         Main.taskManager.addTask(new ExtraInterfaceTask());
     }
