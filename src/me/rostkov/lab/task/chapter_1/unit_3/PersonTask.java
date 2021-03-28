@@ -3,9 +3,9 @@ package me.rostkov.lab.task.chapter_1.unit_3;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
-public class PeopleTask extends BaseTask implements Task {
+public class PersonTask extends BaseTask implements Task {
 
-    public PeopleTask() {
+    public PersonTask() {
         this.id = "1.3";
         this.title = "Человек";
         this.description = "Необходимо разработать сущность Человек, которая описывается:\n" +
@@ -18,12 +18,12 @@ public class PeopleTask extends BaseTask implements Task {
 
     @Override
     public void start() {
-        People people1 = new People("Клеопатра", (short) 152);
-        People people2 = new People("Пушкин", (short) 167);
-        People people3 = new People("Владимир", (short) 189);
+        Person person1 = new Person("Клеопатра", (short) 152);
+        Person person2 = new Person("Пушкин", (short) 167);
+        Person person3 = new Person("Владимир", (short) 189);
 
-        System.out.println(people1);
-        System.out.println(people2);
-        System.out.println(people3);
+        System.out.println(person1);
+        System.out.println(person2);
+        System.out.println(person3);
     }
 }

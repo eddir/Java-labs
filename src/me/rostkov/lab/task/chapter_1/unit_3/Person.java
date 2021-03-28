@@ -1,11 +1,11 @@
 package me.rostkov.lab.task.chapter_1.unit_3;
 
-public class People {
+public class Person {
 
     private String name;
     private short height;
 
-    public People(String name, short height) {
+    public Person(String name, short height) {
         this.name = name;
         this.height = height;
     }

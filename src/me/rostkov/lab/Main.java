@@ -4,12 +4,12 @@ import me.rostkov.lab.task.Task;
 import me.rostkov.lab.task.TaskManager;
 import me.rostkov.lab.task.chapter_1.unit_1.CoordinatePointTask;
 import me.rostkov.lab.task.chapter_1.unit_2.CommentTask;
-import me.rostkov.lab.task.chapter_1.unit_3.PeopleTask;
+import me.rostkov.lab.task.chapter_1.unit_3.PersonTask;
 import me.rostkov.lab.task.chapter_1.unit_4.NameTask;
 import me.rostkov.lab.task.chapter_1.unit_5.TimeTask;
 import me.rostkov.lab.task.chapter_1.unit_6.HouseTask;
 import me.rostkov.lab.task.chapter_2.unit_1.StraightTask;
-import me.rostkov.lab.task.chapter_2.unit_2.NamedPeopleTask;
+import me.rostkov.lab.task.chapter_2.unit_2.NamedPersonTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 
 import java.util.Scanner;
@@ -69,12 +69,12 @@ public class Main {
 
         Main.taskManager.addTask(new CoordinatePointTask());
         Main.taskManager.addTask(new CommentTask());
-        Main.taskManager.addTask(new PeopleTask());
+        Main.taskManager.addTask(new PersonTask());
         Main.taskManager.addTask(new NameTask());
         Main.taskManager.addTask(new TimeTask());
         Main.taskManager.addTask(new HouseTask());
         Main.taskManager.addTask(new StraightTask());
-        Main.taskManager.addTask(new NamedPeopleTask());
+        Main.taskManager.addTask(new NamedPersonTask());
 
         Main.taskManager.addTask(new ExtraInterfaceTask());
     }

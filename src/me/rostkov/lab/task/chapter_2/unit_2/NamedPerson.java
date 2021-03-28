@@ -2,11 +2,11 @@ package me.rostkov.lab.task.chapter_2.unit_2;
 
 import me.rostkov.lab.task.chapter_1.unit_4.Name;
 
-public class NamedPeople {
+public class NamedPerson {
     private Name name;
     private short height;
 
-    public NamedPeople(Name name, short height) {
+    public NamedPerson(Name name, short height) {
         this.name = name;
         this.height = height;
     }
