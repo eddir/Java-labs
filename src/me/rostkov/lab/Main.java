@@ -12,6 +12,7 @@ import me.rostkov.lab.task.chapter_2.unit_1.StraightTask;
 import me.rostkov.lab.task.chapter_2.unit_2.NamedPersonTask;
 import me.rostkov.lab.task.chapter_2.unit_3.ParentPersonTask;
 import me.rostkov.lab.task.chapter_2.unit_4.StaffTask;
+import me.rostkov.lab.task.chapter_2.unit_5.NestedCommentTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 
 import java.util.Scanner;
@@ -25,6 +26,8 @@ public class Main {
         Main.init();
 
         System.out.println("Лабораторные работы по совремнному ООП на языке Java.");
+        System.out.println("Выполнил студент группы бПИНЖ-21 Ростков Эдуард.");
+        System.out.println("Условия задач - задачник по ООП, Ермаков А.В.");
         System.out.println();
 
         Main.process();
@@ -80,6 +83,7 @@ public class Main {
         Main.taskManager.addTask(new NamedPersonTask());
         Main.taskManager.addTask(new ParentPersonTask());
         Main.taskManager.addTask(new StaffTask());
+        Main.taskManager.addTask(new NestedCommentTask());
 
         Main.taskManager.addTask(new ExtraInterfaceTask());
     }
