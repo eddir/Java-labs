@@ -2,7 +2,7 @@ package me.rostkov.lab;
 
 import me.rostkov.lab.task.Task;
 import me.rostkov.lab.task.TaskManager;
-import me.rostkov.lab.task.chapter_1.unit_1.point.CoordinatePointTasks;
+import me.rostkov.lab.task.chapter_1.unit_1.point.CoordinatePointTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 
 import java.util.Scanner;
@@ -59,7 +59,7 @@ public class Main {
 
     private static void init() {
         Main.taskManager = new TaskManager();
-        Main.taskManager.addTask(new CoordinatePointTasks());
+        Main.taskManager.addTask(new CoordinatePointTask());
         Main.taskManager.addTask(new ExtraInterfaceTask());
     }
 }

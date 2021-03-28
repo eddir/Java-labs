@@ -3,9 +3,9 @@ package me.rostkov.lab.task.chapter_1.unit_1.point;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
-public class CoordinatePointTasks extends BaseTask implements Task {
+public class CoordinatePointTask extends BaseTask implements Task {
 
-    public CoordinatePointTasks() {
+    public CoordinatePointTask() {
         this.id = "1.1";
         this.title = "Сущность Точка";
         this.description = "Необходимо разработать сущность Точка, расположенную на двумерной плоскости, которая описывается:\n" +
