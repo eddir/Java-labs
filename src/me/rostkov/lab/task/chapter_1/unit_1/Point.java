@@ -1,4 +1,4 @@
-package me.rostkov.lab.task.chapter_1.unit_1.point;
+package me.rostkov.lab.task.chapter_1.unit_1;
 
 public class Point {
     private int x;
