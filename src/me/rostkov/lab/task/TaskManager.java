@@ -21,7 +21,7 @@ public class TaskManager {
 
     public Task getTask(String id) {
         for (Task task : this.tasks) {
-            if (task.getId().equals(id)) {
+            if (task.getId().contains(id)) {
                 return task;
             }
         }
