@@ -13,6 +13,7 @@ import me.rostkov.lab.task.chapter_2.unit_2.NamedPersonTask;
 import me.rostkov.lab.task.chapter_2.unit_3.ParentPersonTask;
 import me.rostkov.lab.task.chapter_2.unit_4.StaffTask;
 import me.rostkov.lab.task.chapter_2.unit_5.NestedCommentTask;
+import me.rostkov.lab.task.chapter_2.unit_6.TrackTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 
 import java.util.Scanner;
@@ -84,6 +85,7 @@ public class Main {
         Main.taskManager.addTask(new ParentPersonTask());
         Main.taskManager.addTask(new StaffTask());
         Main.taskManager.addTask(new NestedCommentTask());
+        Main.taskManager.addTask(new TrackTask());
 
         Main.taskManager.addTask(new ExtraInterfaceTask());
     }
