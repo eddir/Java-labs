@@ -4,6 +4,7 @@ import me.rostkov.lab.task.Task;
 import me.rostkov.lab.task.TaskManager;
 import me.rostkov.lab.task.chapter_1.unit_1.CoordinatePointTask;
 import me.rostkov.lab.task.chapter_1.unit_2.CommentTask;
+import me.rostkov.lab.task.chapter_1.unit_3.PeopleTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 
 import java.util.Scanner;
@@ -63,6 +64,7 @@ public class Main {
 
         Main.taskManager.addTask(new CoordinatePointTask());
         Main.taskManager.addTask(new CommentTask());
+        Main.taskManager.addTask(new PeopleTask());
 
         Main.taskManager.addTask(new ExtraInterfaceTask());
     }
