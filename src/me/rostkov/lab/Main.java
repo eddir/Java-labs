@@ -14,13 +14,14 @@ import me.rostkov.lab.task.chapter_2.unit_3.ParentPersonTask;
 import me.rostkov.lab.task.chapter_2.unit_4.StaffTask;
 import me.rostkov.lab.task.chapter_2.unit_5.NestedCommentTask;
 import me.rostkov.lab.task.chapter_2.unit_6.TrackTask;
+import me.rostkov.lab.task.chapter_3.unit_1.StudentTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 
 import java.util.Scanner;
 
 public class Main {
 
-    private final boolean testMode = true;
+    private static final boolean testMode = true;
     private static TaskManager taskManager;
 
     public static void main(String[] args) {
@@ -38,6 +39,11 @@ public class Main {
 
     private static void process() {
         Scanner in = new Scanner(System.in);
+
+        if (testMode) {
+            run(Main.taskManager.getPinned());
+            return;
+        }
 
         while (true) {
 
@@ -62,30 +68,35 @@ public class Main {
                 }
             }
 
-            try {
-                task.start();
-                in.nextLine();
-            } catch (Exception e) {
-                System.out.println("ОШИБКА: " + e.getMessage());
-            }
+            run(task);
+            in.nextLine();
+        }
+    }
+
+    private static void run(Task task) {
+        try {
+            task.start();
+        } catch (Exception e) {
+            System.out.println("ОШИБКА: " + e.getMessage());
         }
     }
 
     private static void init() {
         Main.taskManager = new TaskManager();
 
-        Main.taskManager.addTask(new CoordinatePointTask());
-        Main.taskManager.addTask(new CommentTask());
-        Main.taskManager.addTask(new PersonTask());
-        Main.taskManager.addTask(new NameTask());
-        Main.taskManager.addTask(new TimeTask());
-        Main.taskManager.addTask(new HouseTask());
-        Main.taskManager.addTask(new StraightTask());
-        Main.taskManager.addTask(new NamedPersonTask());
-        Main.taskManager.addTask(new ParentPersonTask());
-        Main.taskManager.addTask(new StaffTask());
-        Main.taskManager.addTask(new NestedCommentTask());
-        Main.taskManager.addTask(new TrackTask());
+        Main.taskManager.addTask(new CoordinatePointTask(), true);
+        Main.taskManager.addTask(new CommentTask(), true);
+        Main.taskManager.addTask(new PersonTask(), true);
+        Main.taskManager.addTask(new NameTask(), true);
+        Main.taskManager.addTask(new TimeTask(), true);
+        Main.taskManager.addTask(new HouseTask(), true);
+        Main.taskManager.addTask(new StraightTask(), true);
+        Main.taskManager.addTask(new NamedPersonTask(), true);
+        Main.taskManager.addTask(new ParentPersonTask(), true);
+        Main.taskManager.addTask(new StaffTask(), true);
+        Main.taskManager.addTask(new NestedCommentTask(), true);
+        Main.taskManager.addTask(new TrackTask(), true);
+        Main.taskManager.addTask(new StudentTask(), true);
 
         Main.taskManager.addTask(new ExtraInterfaceTask());
     }
