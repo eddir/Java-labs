@@ -13,12 +13,14 @@ public class TaskManager {
     }
 
     public void addTask(Task task) {
-        this.tasks.add(task);
+        this.addTask(task, true); // TODO: DRY или Optimisation first ?
     }
 
     public void addTask(Task task, boolean pin) {
-        this.addTask(task);
-        this.pinned = task;
+        this.tasks.add(task);
+        if (pin) {
+            this.pinned = task;
+        }
     }
 
     public ArrayList<Task> getAllTasks() {

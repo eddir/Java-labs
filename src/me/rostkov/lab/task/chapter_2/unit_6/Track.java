@@ -3,8 +3,8 @@ package me.rostkov.lab.task.chapter_2.unit_6;
 import java.util.ArrayList;
 
 public class Track {
-    private String name;
-    private ArrayList<String> authors;
+    protected String name;
+    protected ArrayList<String> authors;
     private Album album;
 
     public Track(String name, ArrayList<String> authors, Album album) {
