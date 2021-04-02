@@ -3,6 +3,8 @@ package me.rostkov.lab.task.chapter_2.unit_6;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
+import java.util.Scanner;
+
 public class TrackTask extends BaseTask implements Task {
     public TrackTask() {
         this.id = "2.6";
@@ -15,7 +17,7 @@ public class TrackTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         Album album1 = new Album("Кукловод", "Металлов");
         Album album2 = new Album("Шоссе к ООП", "Асид");
 

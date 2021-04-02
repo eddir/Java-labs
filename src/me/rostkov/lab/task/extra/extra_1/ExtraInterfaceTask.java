@@ -3,6 +3,8 @@ package me.rostkov.lab.task.extra.extra_1;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
+import java.util.Scanner;
+
 public class ExtraInterfaceTask extends BaseTask implements Task {
 
     public ExtraInterfaceTask(){
@@ -11,7 +13,7 @@ public class ExtraInterfaceTask extends BaseTask implements Task {
         this.description = "Демонстрация работы интерфейсов и свойства default для методов интерфейса.";
     }
 
-    public void start() {
+    public void start(Scanner in) {
         Square square = new Square();
         System.out.println("Square = " + square.getSquare());
         System.out.println("Perimeter = " + square.getPerimeter());

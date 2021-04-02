@@ -3,6 +3,8 @@ package me.rostkov.lab.task.chapter_1.unit_6;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
+import java.util.Scanner;
+
 public class HouseTask extends BaseTask implements Task {
 
     public HouseTask() {
@@ -15,7 +17,7 @@ public class HouseTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         House house1 = new House(1);
         House house2 = new House(5);
         House house3 = new House(23);

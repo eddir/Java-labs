@@ -3,6 +3,8 @@ package me.rostkov.lab.task.chapter_1.unit_4;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
+import java.util.Scanner;
+
 public class NameTask extends BaseTask implements Task {
     public NameTask() {
         this.id = "1.4";
@@ -15,7 +17,7 @@ public class NameTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         Name name1 = new Name("Клеопатра");
         Name name2 = new Name("Александр", "Сергеевич", "Пушкин");
         Name name3 = new Name("Владимир", "Маяковский");

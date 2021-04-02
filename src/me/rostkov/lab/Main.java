@@ -16,6 +16,7 @@ import me.rostkov.lab.task.chapter_2.unit_5.NestedCommentTask;
 import me.rostkov.lab.task.chapter_2.unit_6.TrackTask;
 import me.rostkov.lab.task.chapter_3.unit_1.StudentTask;
 import me.rostkov.lab.task.chapter_3.unit_2.GradeBookTask;
+import me.rostkov.lab.task.chapter_3.unit_3.CityTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 
 import java.util.Scanner;
@@ -42,7 +43,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         if (testMode) {
-            run(Main.taskManager.getPinned());
+            run(Main.taskManager.getPinned(), in);
             return;
         }
 
@@ -69,17 +70,17 @@ public class Main {
                 }
             }
 
-            run(task);
+            run(task, in);
             in.nextLine();
         }
     }
 
-    private static void run(Task task) {
-        try {
-            task.start();
-        } catch (Exception e) {
-            System.out.println("ОШИБКА: " + e.getMessage());
-        }
+    private static void run(Task task, Scanner in) {
+//        try {
+            task.start(in);
+//        } catch (Exception e) {
+//            System.out.println("ОШИБКА: " + e.getMessage());
+//        }
     }
 
     private static void init() {
@@ -99,6 +100,7 @@ public class Main {
         Main.taskManager.addTask(new TrackTask(), true);
         Main.taskManager.addTask(new StudentTask(), true);
         Main.taskManager.addTask(new GradeBookTask(), true);
+        Main.taskManager.addTask(new CityTask(), true);
 
         Main.taskManager.addTask(new ExtraInterfaceTask());
     }

@@ -3,6 +3,8 @@ package me.rostkov.lab.task.chapter_3.unit_2;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
+import java.util.Scanner;
+
 public class GradeBookTask extends BaseTask implements Task {
     public GradeBookTask() {
         this.id = "3.2";
@@ -11,7 +13,7 @@ public class GradeBookTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         GradeBook vasya = new GradeBook(171896, "Вася", new GradeRecord[]{
                 new GradeRecord("Информатика", "Ермаков", 5),
                 new GradeRecord("Математика", "Петрова", 4),

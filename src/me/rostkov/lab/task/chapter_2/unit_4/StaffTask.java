@@ -3,6 +3,8 @@ package me.rostkov.lab.task.chapter_2.unit_4;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
+import java.util.Scanner;
+
 public class StaffTask extends BaseTask implements Task {
     public StaffTask() {
         this.id = "2.4";
@@ -15,7 +17,7 @@ public class StaffTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         Department department = new Department("IT");
 
         Employee employee1 = new Employee("Петров", department);

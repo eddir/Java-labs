@@ -3,6 +3,8 @@ package me.rostkov.lab.task.chapter_1.unit_3;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
+import java.util.Scanner;
+
 public class PersonTask extends BaseTask implements Task {
 
     public PersonTask() {
@@ -17,7 +19,7 @@ public class PersonTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         Person person1 = new Person("Клеопатра", (short) 152);
         Person person2 = new Person("Пушкин", (short) 167);
         Person person3 = new Person("Владимир", (short) 189);

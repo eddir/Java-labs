@@ -4,6 +4,8 @@ import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 import me.rostkov.lab.task.chapter_1.unit_1.Point;
 
+import java.util.Scanner;
+
 public class StraightTask extends BaseTask implements Task {
     public StraightTask() {
         this.id = "2.1";
@@ -15,7 +17,7 @@ public class StraightTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         // Устанавливаем 2 независимые линии и одну с точками от предыдущих
         Straight line1 = new Straight(new Point(1, 3), new Point(23, 8));
         Straight line2 = new Straight(new Point(5, 10), new Point(25, 10));

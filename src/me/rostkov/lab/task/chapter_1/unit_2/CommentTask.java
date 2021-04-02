@@ -3,6 +3,8 @@ package me.rostkov.lab.task.chapter_1.unit_2;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
+import java.util.Scanner;
+
 public class CommentTask extends BaseTask implements Task {
 
     public CommentTask() {
@@ -16,7 +18,7 @@ public class CommentTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         Comment comment1 = new Comment("отличные задачи!", 169);
         Comment comment2 = new Comment("комментарий про отличные задачи", 100500);
         Comment comment3 = new Comment("комментарий про комментарий про отличные задачи", -999);

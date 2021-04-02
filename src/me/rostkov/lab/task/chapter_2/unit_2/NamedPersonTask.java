@@ -4,6 +4,8 @@ import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 import me.rostkov.lab.task.chapter_1.unit_4.Name;
 
+import java.util.Scanner;
+
 public class NamedPersonTask extends BaseTask implements Task {
     public NamedPersonTask() {
         this.id = "2.2";
@@ -13,7 +15,7 @@ public class NamedPersonTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         NamedPerson person1 = new NamedPerson(new Name("Клеопатра"), (short) 152);
         NamedPerson person2 = new NamedPerson(new Name("Александр", "Сергеевич", "Пушкин"), (short) 167);
         NamedPerson person3 = new NamedPerson(new Name("Владимир", "Маяковский"), (short) 189);

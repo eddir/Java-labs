@@ -3,6 +3,8 @@ package me.rostkov.lab.task.chapter_1.unit_1;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
+import java.util.Scanner;
+
 public class CoordinatePointTask extends BaseTask implements Task {
 
     public CoordinatePointTask() {
@@ -15,7 +17,7 @@ public class CoordinatePointTask extends BaseTask implements Task {
                 "Необходимо создать три точки с разными координатами и вывести на экран их текстовое представление.\n";
     }
 
-    public void start() {
+    public void start(Scanner in) {
         Point p1 = new Point(1, 2);
         Point p2 = new Point(-1, -2);
         Point p3 = new Point();

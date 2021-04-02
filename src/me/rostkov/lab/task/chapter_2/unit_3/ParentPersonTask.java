@@ -4,6 +4,8 @@ import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 import me.rostkov.lab.task.chapter_1.unit_4.Name;
 
+import java.util.Scanner;
+
 public class ParentPersonTask extends BaseTask implements Task {
     public ParentPersonTask() {
         this.id = "2.3";
@@ -13,7 +15,7 @@ public class ParentPersonTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         ParentPerson ivan = new ParentPerson(new Name("Иван", "Чудов"), (short) 186);
         ParentPerson petr = new ParentPerson(new Name("Петр", "Чудов"), (short) 184);
         ParentPerson boris = new ParentPerson(new Name("Борис"), (short) 177);

@@ -3,6 +3,8 @@ package me.rostkov.lab.task.chapter_3.unit_1;
 import me.rostkov.lab.task.BaseTask;
 import me.rostkov.lab.task.Task;
 
+import java.util.Scanner;
+
 public class StudentTask extends BaseTask implements Task {
     public StudentTask() {
         this.id = "3.1";
@@ -14,7 +16,7 @@ public class StudentTask extends BaseTask implements Task {
     }
 
     @Override
-    public void start() {
+    public void start(Scanner in) {
         Student vasya = new Student("Вася", new int[]{3, 4, 5});
         Student petya = new Student("Петя", vasya.getMarks());
 

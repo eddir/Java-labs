@@ -1,5 +1,7 @@
 package me.rostkov.lab.task;
 
+import java.util.Scanner;
+
 public interface Task {
 
     /**
@@ -23,6 +25,6 @@ public interface Task {
     /**
      * запуск задачи по основному сценарию
      */
-    public void start();
+    public void start(Scanner in);
 
 }
