@@ -20,6 +20,7 @@ import me.rostkov.lab.task.chapter_3.unit_3.CityTask;
 import me.rostkov.lab.task.chapter_3.unit_4.LinkedTrackTask;
 import me.rostkov.lab.task.chapter_3.unit_5.ArticleTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
+import me.rostkov.lab.task.extra.extra_2.CalendarTask;
 
 import java.util.Scanner;
 
@@ -112,5 +113,6 @@ public class Main {
         Main.taskManager.addTask(new ArticleTask());
 
         Main.taskManager.addTask(new ExtraInterfaceTask(), false);
+        Main.taskManager.addTask(new CalendarTask(), false);
     }
 }

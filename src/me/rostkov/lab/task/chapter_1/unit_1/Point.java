@@ -17,8 +17,6 @@ public class Point implements Cloneable {
         try {
             return (Point) super.clone();
         } catch (CloneNotSupportedException e) {
-            // TODO: в каких случаях бывает исключение и как правильно его обработать, чтобы не писать
-            // во всех родительских методах throws CloneNotSupportedException ?
             System.out.println("Клон Point не поддерживается");
             return new Point();
         }
