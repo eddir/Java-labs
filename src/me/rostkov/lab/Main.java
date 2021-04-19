@@ -21,6 +21,7 @@ import me.rostkov.lab.task.chapter_3.unit_4.LinkedTrackTask;
 import me.rostkov.lab.task.chapter_3.unit_5.ArticleTask;
 import me.rostkov.lab.task.chapter_4.unit_1.StrictlyPointTask;
 import me.rostkov.lab.task.chapter_4.unit_2.StrictlyStraightTask;
+import me.rostkov.lab.task.chapter_4.unit_3.StrictlyHouseTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 import me.rostkov.lab.task.extra.extra_2.CalendarTask;
 
@@ -115,6 +116,7 @@ public class Main {
         Main.taskManager.addTask(new ArticleTask());
         Main.taskManager.addTask(new StrictlyPointTask());
         Main.taskManager.addTask(new StrictlyStraightTask());
+        Main.taskManager.addTask(new StrictlyHouseTask());
 
         Main.taskManager.addTask(new ExtraInterfaceTask(), false);
         Main.taskManager.addTask(new CalendarTask(), false);
