@@ -20,6 +20,7 @@ public class Article {
     }
 
     public String toString() {
+        //todo: инверсия иерархии
         StringBuilder c = new StringBuilder();
 
         for(FullComment comment: comments){
