@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class HouseTask extends BaseTask implements Task {
 
     public HouseTask() {
-        this.id = "1.6";
+        this.id = "1.1.6";
         this.title = "Дом";
         this.description = "Необходимо разработать сущность Дом, которая описывается количеством этажей в виде числа." +
                 " У Дома можно запросить текстовую форму, которое имеет представление вида “дом с N этажами”, где N " +

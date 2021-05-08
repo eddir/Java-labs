@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class StrictlyTimeTask extends BaseTask implements Task {
     public StrictlyTimeTask() {
-        this.id = "4.4";
+        this.id = "1.4.4";
         this.title = "Сущность Время со строгим конструктором";
         this.description = "В данной задаче необходимо модифицировать сущность Время из задачи 1.5. ";
     }

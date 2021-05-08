@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class TimeTask extends BaseTask implements Task {
 
     public TimeTask() {
-        this.id = "1.5";
+        this.id = "1.1.5";
         this.title = "Время";
         this.description = "Необходимо разработать сущность Время, которое будет описывать текущее время суток " +
                 "в 24-х часовом формате. Время описывается числом секунд, прошедшим с начала суток. Время может быть " +

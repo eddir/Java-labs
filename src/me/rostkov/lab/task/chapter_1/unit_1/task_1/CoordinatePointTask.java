@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class CoordinatePointTask extends BaseTask implements Task {
 
     public CoordinatePointTask() {
-        this.id = "1.1";
+        this.id = "1.1.1";
         this.title = "Сущность Точка";
         this.description = "Необходимо разработать сущность Точка, расположенную на двумерной плоскости, которая описывается:\n" +
                 "•\tКоордината Х: число\n" +

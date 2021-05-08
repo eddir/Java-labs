@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class NamedPersonTask extends BaseTask implements Task {
     public NamedPersonTask() {
-        this.id = "2.2";
+        this.id = "1.2.2";
         this.title = "Человек с именем";
         this.description = "Необходимо объединить сущности Человек из задачи 1.3 и Имя из задачи 1.4 таким образом, " +
                 "чтобы имя человека задавалось с использованием сущности 1.4, а не строки. ";

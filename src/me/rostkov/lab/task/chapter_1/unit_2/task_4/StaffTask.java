@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class StaffTask extends BaseTask implements Task {
     public StaffTask() {
-        this.id = "2.4";
+        this.id = "1.2.4";
         this.title = "Сотрудники и отделы";
         this.description = "Необходимо разработать сущность Сотрудник, которая описывается именем (в строковой форме)" +
                 " и отделом, в котором сотрудник работает, причем у каждого отдела есть название и начальник, который" +

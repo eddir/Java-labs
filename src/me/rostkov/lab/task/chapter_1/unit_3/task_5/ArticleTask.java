@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ArticleTask extends BaseTask implements Task {
     public ArticleTask() {
-        this.id = "3.5";
+        this.id = "1.3.5";
         this.title = "Публикации";
         this.description = "Необходимо разработать сущность Публикация";
     }

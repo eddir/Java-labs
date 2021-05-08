@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class NameTask extends BaseTask implements Task {
     public NameTask() {
-        this.id = "1.4";
+        this.id = "1.1.4";
         this.title = "Имена";
         this.description = "Необходимо разработать сущность Имя, которая описывается тремя параметрами: Фамилия, " +
                 "Личное имя, Отчество. Имя может быть приведено к строковому виду, включающему традиционное " +

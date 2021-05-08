@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class PersonTask extends BaseTask implements Task {
 
     public PersonTask() {
-        this.id = "1.3";
+        this.id = "1.1.3";
         this.title = "Человек";
         this.description = "Необходимо разработать сущность Человек, которая описывается:\n" +
                 "•\tИмя: строка\n" +

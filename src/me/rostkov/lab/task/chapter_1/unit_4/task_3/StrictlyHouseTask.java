@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class StrictlyHouseTask extends BaseTask implements Task {
     public StrictlyHouseTask() {
-        this.id = "4.3";
+        this.id = "1.4.3";
         this.title = "Сущность дом со строгим конструктором";
         this.description = "В данной задаче необходимо модифицировать сущность Дом из задачи 1.6. ";
     }

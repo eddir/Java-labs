@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class CommentTask extends BaseTask implements Task {
 
     public CommentTask() {
-        this.id = "1.2";
+        this.id = "1.1.2";
         this.title = "Комментарий";
         this.description = "Необходимо разработать сущность Комментарий, которая описывается:\n" +
                 "•\tТекст: строка\n" +

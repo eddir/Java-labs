@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class GradeBookTask extends BaseTask implements Task {
     public GradeBookTask() {
-        this.id = "3.2";
+        this.id = "1.3.2";
         this.title = "Зачётка";
         this.description = "Необходимо разработать сущность Зачетка.";
     }

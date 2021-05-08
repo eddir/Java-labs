@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class LinkedTrackTask extends BaseTask implements Task {
     public LinkedTrackTask() {
-        this.id = "3.4";
+        this.id = "1.3.4";
         this.title = "Песни и ссылки";
         this.description = "Основные требования к данной задаче совпадают с таковыми для задачи 2.6, однако " +
                 "необходимо так модифицировать решение, чтобы имея ссылку на трек, можно было бы получить доступ ко " +

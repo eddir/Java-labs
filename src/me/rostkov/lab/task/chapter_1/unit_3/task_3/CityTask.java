@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class CityTask extends BaseTask implements Task {
     public CityTask() {
-        this.id = "3.3";
+        this.id = "1.3.3";
         this.title = "Города";
         this.description = "Необходимо разработать сущность Город, которая будет представлять собой точку на карте.";
     }

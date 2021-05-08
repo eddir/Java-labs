@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class ParentPersonTask extends BaseTask implements Task {
     public ParentPersonTask() {
-        this.id = "2.3";
+        this.id = "1.2.3";
         this.title = "Человек с родителем";
         this.description = "Необходимо модифицировать сущность Человек из задачи 2.2 добавив ему возможность " +
                 "задавать третий параметр: Отец, где Отец - это тоже Человек. ";

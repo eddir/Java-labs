@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class TrackTask extends BaseTask implements Task {
     public TrackTask() {
-        this.id = "2.6";
+        this.id = "1.2.6";
         this.title = "Песни";
         this.description = "Необходимо разработать сущность Музыкальный Трек, которая описывается названием, автором и" +
                 " альбомом, к которому данный трек относится, причем альбом описывается названием и автором. Будем" +

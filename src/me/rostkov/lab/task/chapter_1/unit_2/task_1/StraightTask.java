@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class StraightTask extends BaseTask implements Task {
     public StraightTask() {
-        this.id = "2.1";
+        this.id = "1.2.1";
         this.title = "Прямая";
         this.description = "Необходимо разработать сущность Линия, расположенную на двумерной плоскости которая описывается:\n" +
                 "•\tКоордината начала: Точка\n" +

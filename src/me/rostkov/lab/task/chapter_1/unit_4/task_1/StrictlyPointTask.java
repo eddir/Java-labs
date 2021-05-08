@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class StrictlyPointTask extends BaseTask implements Task {
     public StrictlyPointTask() {
-        this.id = "4.1";
+        this.id = "1.4.1";
         this.title = "Сущность точка со строгим конструктором";
         this.description = "В данной задаче необходимо модифицировать сущность Точка из задачи 1.1. В соответствии с " +
                 "новыми требованиями создать объект Точки можно только путем указания обеих координат: X и Y. ";

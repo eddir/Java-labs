@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class StrictlyNameTask extends BaseTask implements Task {
     public StrictlyNameTask() {
-        this.id = "4.5";
+        this.id = "1.4.5";
         this.title = "Сущность Время со строгим конструктором";
         this.description = "В данной задаче необходимо модифицировать сущность Имя из задачи 1.4. ";
     }

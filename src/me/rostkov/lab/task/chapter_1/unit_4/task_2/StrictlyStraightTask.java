@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class StrictlyStraightTask extends BaseTask implements Task {
     public StrictlyStraightTask() {
-        this.id = "4.2";
+        this.id = "1.4.2";
         this.title = "Сущность прямая со строгим конструктором";
         this.description = "В данной задаче необходимо модифицировать сущность Линия из задачи 2.1. ";
     }

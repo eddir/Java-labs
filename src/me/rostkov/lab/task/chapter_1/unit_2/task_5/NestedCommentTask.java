@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class NestedCommentTask extends BaseTask implements Task {
     public NestedCommentTask() {
-        this.id = "2.5";
+        this.id = "1.2.5";
         this.title = "Комментирование комментариев";
         this.description = "Необходимо так модифицировать сущность Комментарий (из задачи 1.2), что бы была " +
                 "возможность оставить Комментарий к Комментарию. ";
