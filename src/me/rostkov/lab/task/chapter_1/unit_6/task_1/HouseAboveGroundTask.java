@@ -22,7 +22,7 @@ public class HouseAboveGroundTask extends BaseTask implements Task {
 
         house = new StrictlyHouse(5);
         System.out.println(house);
-        
+
         house = new StrictlyHouse(-4);
         System.out.println(house);
     }
