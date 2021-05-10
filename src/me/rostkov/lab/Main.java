@@ -41,6 +41,7 @@ import me.rostkov.lab.task.chapter_3.unit_4.task_1.ComparingFractionTask;
 import me.rostkov.lab.task.chapter_4.unit_2.task_4.CloneableFractionTask;
 import me.rostkov.lab.task.chapter_5.unit_1.task_1.BoxTask;
 import me.rostkov.lab.task.chapter_5.unit_1.task_2.StorageTask;
+import me.rostkov.lab.task.chapter_5.unit_2.task_2.MaximumTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 import me.rostkov.lab.task.extra.extra_2.CalendarTask;
 
@@ -155,6 +156,7 @@ public class Main {
         Main.taskManager.addTask(new CloneableFractionTask());
         Main.taskManager.addTask(new BoxTask());
         Main.taskManager.addTask(new StorageTask());
+        Main.taskManager.addTask(new MaximumTask());
 
         Main.taskManager.addTask(new ExtraInterfaceTask(), false);
         Main.taskManager.addTask(new CalendarTask(), false);
