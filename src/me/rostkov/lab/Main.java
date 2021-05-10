@@ -25,6 +25,7 @@ import me.rostkov.lab.task.chapter_1.unit_4.task_3.StrictlyHouseTask;
 import me.rostkov.lab.task.chapter_1.unit_4.task_4.StrictlyTimeTask;
 import me.rostkov.lab.task.chapter_1.unit_4.task_5.StrictlyNameTask;
 import me.rostkov.lab.task.chapter_1.unit_5.task_1.GunTask;
+import me.rostkov.lab.task.chapter_1.unit_5.task_5.FractionTask;
 import me.rostkov.lab.task.chapter_1.unit_6.task_1.HouseAboveGroundTask;
 import me.rostkov.lab.task.chapter_2.unit_1.task_1.ImmutableArrayTask;
 import me.rostkov.lab.task.chapter_2.unit_1.task_2.NonExtendedArrayTask;
@@ -50,7 +51,7 @@ public class Main {
 
         Main.process();
 
-        System.out.println("Завершение...");
+        System.out.println("\nЗавершение...");
     }
 
     private static void process() {
@@ -133,6 +134,7 @@ public class Main {
         Main.taskManager.addTask(new NonExtendedArrayTask());
         Main.taskManager.addTask(new ExtendableArrayTask());
         Main.taskManager.addTask(new StudentMarkListTask());
+        Main.taskManager.addTask(new FractionTask());
 
         Main.taskManager.addTask(new ExtraInterfaceTask(), false);
         Main.taskManager.addTask(new CalendarTask(), false);
