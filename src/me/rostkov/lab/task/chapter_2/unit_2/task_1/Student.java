@@ -2,10 +2,7 @@ package me.rostkov.lab.task.chapter_2.unit_2.task_1;
 
 import me.rostkov.lab.task.chapter_2.unit_1.task_3.ExtendableArray;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 

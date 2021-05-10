@@ -1,6 +1,6 @@
 package me.rostkov.lab.task.chapter_1.unit_5.task_5;
 
-public class Fraction {
+public class Fraction extends Number {
     private int numerator;
     private int denominator;
 
@@ -18,7 +18,7 @@ public class Fraction {
         return new Fraction(this.numerator * f.denominator + f.numerator * this.denominator,
                 this.denominator * f.denominator);
     }
-    
+
 
     public Fraction sum(int num) {
         return new Fraction(this.numerator + this.denominator * num, this.denominator);
@@ -70,5 +70,25 @@ public class Fraction {
     @Override
     public String toString() {
         return denominator == 1 ? String.valueOf(numerator) : numerator + "/" + denominator;
+    }
+
+    @Override
+    public int intValue() {
+        return (int) numerator / denominator;
+    }
+
+    @Override
+    public long longValue() {
+        return (long) numerator / denominator;
+    }
+
+    @Override
+    public float floatValue() {
+        return (float) numerator / denominator;
+    }
+
+    @Override
+    public double doubleValue() {
+        return (double) numerator / denominator;
     }
 }
