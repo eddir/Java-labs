@@ -1,9 +1,10 @@
 package me.rostkov.lab.task.chapter_1.unit_5.task_5;
 
+import java.util.Objects;
+
 public class Fraction extends Number {
     private int numerator;
     private int denominator;
-
 
     public Fraction(int numerator, int denominator) {
         if (denominator == 0) {
@@ -90,5 +91,18 @@ public class Fraction extends Number {
     @Override
     public double doubleValue() {
         return (double) numerator / denominator;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Fraction fraction = (Fraction) o;
+        return numerator == fraction.numerator && denominator == fraction.denominator;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(numerator, denominator);
     }
 }
