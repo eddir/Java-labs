@@ -35,6 +35,7 @@ import me.rostkov.lab.task.chapter_2.unit_1.task_3.ExtendableArrayTask;
 import me.rostkov.lab.task.chapter_2.unit_2.task_1.StudentMarkListTask;
 import me.rostkov.lab.task.chapter_3.unit_1.task_1.FinallyFractionTask;
 import me.rostkov.lab.task.chapter_3.unit_2.task_1.PistolTask;
+import me.rostkov.lab.task.chapter_3.unit_2.task_2.NumberFractionTask;
 import me.rostkov.lab.task.chapter_3.unit_3.task_1.SumTask;
 import me.rostkov.lab.task.extra.extra_1.ExtraInterfaceTask;
 import me.rostkov.lab.task.extra.extra_2.CalendarTask;
@@ -145,6 +146,7 @@ public class Main {
         Main.taskManager.addTask(new RechargeableGunTask());
         Main.taskManager.addTask(new PistolTask());
         Main.taskManager.addTask(new SumTask());
+        Main.taskManager.addTask(new NumberFractionTask());
 
         Main.taskManager.addTask(new ExtraInterfaceTask(), false);
         Main.taskManager.addTask(new CalendarTask(), false);
