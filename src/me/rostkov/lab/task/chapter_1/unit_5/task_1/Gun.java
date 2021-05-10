@@ -1,7 +1,7 @@
 package me.rostkov.lab.task.chapter_1.unit_5.task_1;
 
 public class Gun {
-    private int ammunition;
+    protected int ammunition;
 
     public Gun(int ammunition) {
         this.ammunition = ammunition;
