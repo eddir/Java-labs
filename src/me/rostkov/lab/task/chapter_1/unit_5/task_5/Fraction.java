@@ -1,8 +1,10 @@
 package me.rostkov.lab.task.chapter_1.unit_5.task_5;
 
+import me.rostkov.lab.task.chapter_3.unit_1.task_1.FinallyFraction;
+
 import java.util.Objects;
 
-public class Fraction extends Number {
+public class Fraction extends Number implements Cloneable{
     private int numerator;
     private int denominator;
 
@@ -104,5 +106,10 @@ public class Fraction extends Number {
     @Override
     public int hashCode() {
         return Objects.hash(numerator, denominator);
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
