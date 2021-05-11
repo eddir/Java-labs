@@ -1,10 +1,10 @@
 package me.rostkov.lab.task.chapter_1.unit_5.task_5;
 
-import me.rostkov.lab.task.chapter_3.unit_1.task_1.FinallyFraction;
+import me.rostkov.lab.task.chapter_6.unit_2.task_1.Floatable;
 
 import java.util.Objects;
 
-public class Fraction extends Number implements Cloneable{
+public class Fraction extends Number implements Cloneable, Floatable {
     private int numerator;
     private int denominator;
 
